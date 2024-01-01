@@ -20,11 +20,35 @@ Requires [devkitARM](http://sourceforge.net/projects/devkitpro/files/devkitARM/)
   * Browse and modify CTR NAND, TWL NAND, and system save data.
   * Dump the raw NAND image to the SD card.
   * Launch titles installed to the system.
+<br>
+These are original FBI Features.
 
-# Credit
+# Copy and Build
 
-Banner: Originally created by [OctopusRift](http://gbatemp.net/members/octopusrift.356526/), touched up by [Apache Thunder](https://gbatemp.net/members/apache-thunder.105648/), updated for new logo by [PabloMK7](http://gbatemp.net/members/pablomk7.345712/).
+Use this bat code, run it in root dir/C:\
+```bat
+mkdir Projects
+cd Projects
+git clone https://github.com/ndsboy87/ftc.git
+```
 
-Logo: [PabloMK7](http://gbatemp.net/members/pablomk7.345712/)
+Citra:
+```bat
+make citra
+```
+
+3DS Hardware:
+```bat
+make
+```
+
+Clear previous build:
+```bat
+make clear
+```
+
+# Valid Credit (FTC)
 
 SPI Protocol Information: [TuxSH](https://github.com/TuxSH/) ([TWLSaveTool](https://github.com/TuxSH/TWLSaveTool))
+
+Thanks to every contributor and the creator of FBI for making FTC possible.
